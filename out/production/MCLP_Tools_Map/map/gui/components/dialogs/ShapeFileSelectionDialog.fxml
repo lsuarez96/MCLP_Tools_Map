@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.layout.*?>
+<?import org.controlsfx.control.CheckListView?>
+<AnchorPane prefHeight="369.0" prefWidth="230.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="map.gui.components.dialogs.ShapeFileSelectionDialogController">
+   <children>
+      <CheckListView fx:id="layersListView" layoutX="16.0" layoutY="21.0" prefHeight="296.0" prefWidth="177.0" AnchorPane.leftAnchor="16.0" AnchorPane.topAnchor="21.0" />
+      <VBox layoutX="196.0" layoutY="151.0" AnchorPane.bottomAnchor="150.0" AnchorPane.rightAnchor="1.0" AnchorPane.topAnchor="151.0">
+         <children>
+            <JFXButton contentDisplay="GRAPHIC_ONLY" onAction="#reorderLayerUp" prefHeight="34.0" prefWidth="26.0">
+               <graphic>
+                  <FontAwesomeIconView glyphName="ANGLE_UP" size="25" />
+               </graphic>
+            </JFXButton>
+            <JFXButton contentDisplay="GRAPHIC_ONLY" onAction="#reorderLayerDown" prefHeight="25.0" prefWidth="30.0">
+               <graphic>
+                  <FontAwesomeIconView glyphName="ANGLE_DOWN" size="25" />
+               </graphic>
+            </JFXButton>
+         </children>
+      </VBox>
+      <JFXButton layoutX="68.0" layoutY="326.0" onAction="#finishSelection" prefHeight="29.0" prefWidth="102.0" text="Seleccionar" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="68.0" AnchorPane.rightAnchor="60.0">
+         <graphic>
+            <FontAwesomeIconView fill="#2aa412" glyphName="CHECK_CIRCLE_ALT" size="20" />
+         </graphic>
+      </JFXButton>
+   </children>
+</AnchorPane>

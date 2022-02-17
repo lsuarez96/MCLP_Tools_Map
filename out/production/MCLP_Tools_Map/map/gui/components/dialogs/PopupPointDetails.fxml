@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane opacity="0.82" prefHeight="125.0" prefWidth="129.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="map.gui.components.dialogs.PopupPointDetailsController">
+   <children>
+      <VBox fx:id="dataContainer" layoutX="5.0" layoutY="2.0" prefHeight="105.0" prefWidth="129.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <HBox fx:id="titleContainerHb" alignment="CENTER" maxHeight="30.0" style="-fx-border-width: 0px 0px 1px 0px; -fx-border-color: #4d4e53;">
+               <children>
+                  <Label fx:id="titleLb" alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="106.0" text="Title" textAlignment="CENTER" wrapText="true">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" spacing="3.0">
+               <children>
+                  <Label alignment="CENTER_RIGHT" prefHeight="17.0" prefWidth="15.0" text="X:" />
+                  <Label prefHeight="24.0" prefWidth="109.0" text="Label" wrapText="true" HBox.hgrow="ALWAYS" fx:id="xTextLb" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" spacing="3.0">
+               <children>
+                  <Label alignment="CENTER_RIGHT" prefHeight="17.0" prefWidth="14.0" text="Y:" />
+                  <Label fx:id="yTextLb" prefHeight="24.0" prefWidth="114.0" text="Label" wrapText="true" HBox.hgrow="ALWAYS" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Profile>
+  <Name>default</Name>
+  <Problem_data>
+    <Data_tag>Problema</Data_tag>
+    <Periods amount_periods="1">
+      <Period_tag>Periodo</Period_tag>
+      <Period_0>Distribución</Period_0>
+    </Periods>
+    <Alpha_satisfaction_degrees amount="11">
+      <Satisfaction_tag>Nivel de satisfaccion</Satisfaction_tag>
+      <Degree_0 value="0.0">0%</Degree_0>
+      <Degree_1 value="0.1">10%</Degree_1>
+      <Degree_2 value="0.2">20%</Degree_2>
+      <Degree_3 value="0.3">30%</Degree_3>
+      <Degree_4 value="0.4">40%</Degree_4>
+      <Degree_5 value="0.5">50%</Degree_5>
+      <Degree_6 value="0.6">60%</Degree_6>
+      <Degree_7 value="0.7">70%</Degree_7>
+      <Degree_8 value="0.8">80%</Degree_8>
+      <Degree_9 value="0.9">90%</Degree_9>
+      <Degree_10 value="1.0">100%</Degree_10>
+    </Alpha_satisfaction_degrees>
+    <Execution_tag>Ejecuciones</Execution_tag>
+    <Iteration_tag>Iteraciones</Iteration_tag>
+    <Total_iterations>5000</Total_iterations>
+    <Preferred_algorithm>VNS-PA</Preferred_algorithm>
+    <Algorithms amount="20">
+      <Algorithm_0>EC</Algorithm_0>
+      <Algorithm_1>ECR</Algorithm_1>
+      <Algorithm_2>PA</Algorithm_2>
+      <Algorithm_3>BT</Algorithm_3>
+      <Algorithm_4>RSC</Algorithm_4>
+      <Algorithm_5>RSL</Algorithm_5>
+      <Algorithm_6>RSH</Algorithm_6>
+      <Algorithm_7>RSE</Algorithm_7>
+      <Algorithm_8>AG</Algorithm_8>
+      <Algorithm_9>EE</Algorithm_9>
+      <Algorithm_10>VNS-EC</Algorithm_10>
+      <Algorithm_11>VNS-ECR</Algorithm_11>
+      <Algorithm_12>VNS-PA</Algorithm_12>
+      <Algorithm_13>VNS-BT</Algorithm_13>
+      <Algorithm_14>VNS-RSC</Algorithm_14>
+      <Algorithm_15>VNS-RSL</Algorithm_15>
+      <Algorithm_16>VNS-RSH</Algorithm_16>
+      <Algorithm_17>VNS-RSE</Algorithm_17>
+      <Algorithm_18>VNS-AG</Algorithm_18>
+      <Algorithm_19>VNS-EE</Algorithm_19>
+    </Algorithms>
+    <Preferred_assignment>Demanda maxima a instalacion mas cercana</Preferred_assignment>
+    <Assignment_criterias amount="6">
+      <Assignment_0>Demanda minima a instalacion aleatoria</Assignment_0>
+      <Assignment_1>Demanda maxima a instalacion aleatoria</Assignment_1>
+      <Assignment_2>Demanda aleatoria a instalacion aleatoria</Assignment_2>
+      <Assignment_3>Demanda minima a instalacion mas cercana</Assignment_3>
+      <Assignment_4>Demanda maxima a instalacion mas cercana</Assignment_4>
+      <Assignment_5>Demanda aleatoria a instalacion mas cercana</Assignment_5>
+    </Assignment_criterias>
+    <Solution_tag>Soluciones</Solution_tag>
+  </Problem_data>
+  <Facilities amount_types="10">
+    <Name>Lugar</Name>
+    <Coverage_tolerance>0.5</Coverage_tolerance>
+    <Capacity_tolerance>0.5</Capacity_tolerance>
+    <Open_name>Instalacion activa</Open_name>
+    <Closed_name>Instalacion Inactiva</Closed_name>
+    <Facility_tag>Instalacion</Facility_tag>
+    <Coordinates_tag>Coordenadas</Coordinates_tag>
+    <Min_tag>Limite minimo</Min_tag>
+    <Max_tag>Limite maximo</Max_tag>
+    <Coverage_tag>Cobertura</Coverage_tag>
+    <Capacity_tag>Capacidad</Capacity_tag>
+    <Image>cfgFiles\default\image\insDatos0.png</Image>
+    <Open_image>cfgFiles\default\image\Imagen5.png</Open_image>
+    <Closed_image>cfgFiles\default\image\presInst.png</Closed_image>
+    <Open_cost_tag>Costo de abrir</Open_cost_tag>
+    <Close_cost_tag>Costo de cerrar</Close_cost_tag>
+    <Facilities_tag>Instalaciones</Facilities_tag>
+    <Open_facilities_tag>Instalaciones Activas</Open_facilities_tag>
+    <Closed_facilities_tag>Instalaciones Inactivas</Closed_facilities_tag>
+    <Facility_Type_0>
+      <Type_name>Tipo 1</Type_name>
+      <Coverage>0.0</Coverage>
+      <Capacity>200.0</Capacity>
+      <Default_min>1</Default_min>
+      <Default_max>1</Default_max>
+      <Open_cost>0.0</Open_cost>
+      <Close_cost>0.0</Close_cost>
+      <Type_image>cfgFiles\default\image\insDatos0.png</Type_image>
+      <Open_image>cfgFiles\default\image\insAbierta0.png</Open_image>
+      <Closed_image>cfgFiles\default\image\insCerrada0.png</Closed_image>
+    </Facility_Type_0>
+    <Facility_Type_1>
+      <Type_name>Tipo 2</Type_name>
+      <Coverage>0.0</Coverage>
+      <Capacity>200.0</Capacity>
+      <Default_min>1</Default_min>
+      <Default_max>1</Default_max>
+      <Open_cost>0.0</Open_cost>
+      <Close_cost>0.0</Close_cost>
+      <Type_image>cfgFiles\default\image\insDatos1.png</Type_image>
+      <Open_image>cfgFiles\default\image\insAbierta1.png</Open_image>
+      <Closed_image>cfgFiles\default\image\insCerrada1.png</Closed_image>
+    </Facility_Type_1>
+    <Facility_Type_2>
+      <Type_name>Tipo 3</Type_name>
+      <Coverage>0.0</Coverage>
+      <Capacity>200.0</Capacity>
+      <Default_min>1</Default_min>
+      <Default_max>1</Default_max>
+      <Open_cost>0.0</Open_cost>
+      <Close_cost>0.0</Close_cost>
+      <Type_image>cfgFiles\default\image\insDatos2.png</Type_image>
+      <Open_image>cfgFiles\default\image\insAbierta2.png</Open_image>
+      <Closed_image>cfgFiles\default\image\insCerrada2.png</Closed_image>
+    </Facility_Type_2>
+    <Facility_Type_3>
+      <Type_name>Tipo 4</Type_name>
+      <Coverage>0.0</Coverage>
+      <Capacity>200.0</Capacity>
+      <Default_min>1</Default_min>
+      <Default_max>1</Default_max>
+      <Open_cost>0.0</Open_cost>
+      <Close_cost>0.0</Close_cost>
+      <Type_image>cfgFiles\default\image\insDatos3.png</Type_image>
+      <Open_image>cfgFiles\default\image\insAbierta3.png</Open_image>
+      <Closed_image>cfgFiles\default\image\insCerrada3.png</Closed_image>
+    </Facility_Type_3>
+    <Facility_Type_4>
+      <Type_name>Tipo 5</Type_name>
+      <Coverage>0.0</Coverage>
+      <Capacity>200.0</Capacity>
+      <Default_min>1</Default_min>
+      <Default_max>1</Default_max>
+      <Open_cost>0.0</Open_cost>
+      <Close_cost>0.0</Close_cost>
+      <Type_image>cfgFiles\default\image\insDatos4.png</Type_image>
+      <Open_image>cfgFiles\default\image\insAbierta4.png</Open_image>
+      <Closed_image>cfgFiles\default\image\insCerrada4.png</Closed_image>
+    </Facility_Type_4>
+    <Facility_Type_5>
+      <Type_name>Tipo 6</Type_name>
+      <Coverage>0.0</Coverage>
+      <Capacity>200.0</Capacity>
+      <Default_min>1</Default_min>
+      <Default_max>1</Default_max>
+      <Open_cost>0.0</Open_cost>
+      <Close_cost>0.0</Close_cost>
+      <Type_image>cfgFiles\default\image\insDatos5.png</Type_image>
+      <Open_image>cfgFiles\default\image\insAbierta5.png</Open_image>
+      <Closed_image>cfgFiles\default\image\insCerrada5.png</Closed_image>
+    </Facility_Type_5>
+    <Facility_Type_6>
+      <Type_name>Tipo 7</Type_name>
+      <Coverage>0.0</Coverage>
+      <Capacity>200.0</Capacity>
+      <Default_min>1</Default_min>
+      <Default_max>1</Default_max>
+      <Open_cost>0.0</Open_cost>
+      <Close_cost>0.0</Close_cost>
+      <Type_image>cfgFiles\default\image\insDatos6.png</Type_image>
+      <Open_image>cfgFiles\default\image\insAbierta6.png</Open_image>
+      <Closed_image>cfgFiles\default\image\insCerrada6.png</Closed_image>
+    </Facility_Type_6>
+    <Facility_Type_7>
+      <Type_name>Tipo 8</Type_name>
+      <Coverage>0.0</Coverage>
+      <Capacity>200.0</Capacity>
+      <Default_min>1</Default_min>
+      <Default_max>1</Default_max>
+      <Open_cost>0.0</Open_cost>
+      <Close_cost>0.0</Close_cost>
+      <Type_image>cfgFiles\default\image\insDatos7.png</Type_image>
+      <Open_image>cfgFiles\default\image\insAbierta7.png</Open_image>
+      <Closed_image>cfgFiles\default\image\insCerrada7.png</Closed_image>
+    </Facility_Type_7>
+    <Facility_Type_8>
+      <Type_name>Tipo 9</Type_name>
+      <Coverage>0.0</Coverage>
+      <Capacity>200.0</Capacity>
+      <Default_min>1</Default_min>
+      <Default_max>1</Default_max>
+      <Open_cost>0.0</Open_cost>
+      <Close_cost>0.0</Close_cost>
+      <Type_image>cfgFiles\default\image\insDatos8.png</Type_image>
+      <Open_image>cfgFiles\default\image\insAbierta8.png</Open_image>
+      <Closed_image>cfgFiles\default\image\insCerrada8.png</Closed_image>
+    </Facility_Type_8>
+    <Facility_Type_9>
+      <Type_name>Tipo 10</Type_name>
+      <Coverage>0.0</Coverage>
+      <Capacity>200.0</Capacity>
+      <Default_min>1</Default_min>
+      <Default_max>1</Default_max>
+      <Open_cost>0.0</Open_cost>
+      <Close_cost>0.0</Close_cost>
+      <Type_image>cfgFiles\default\image\insDatos9.png</Type_image>
+      <Open_image>cfgFiles\default\image\insAbierta9.png</Open_image>
+      <Closed_image>cfgFiles\default\image\insCerrada9.png</Closed_image>
+    </Facility_Type_9>
+  </Facilities>
+  <Demands>
+    <Demand_tag>Nodo de demanda</Demand_tag>
+    <General_covered_name>Cubierta</General_covered_name>
+    <General_not_covered_name>No cubierta</General_not_covered_name>
+    <Demand_place_tag>Lugar</Demand_place_tag>
+    <Demands_tag>Nodos de demanda</Demands_tag>
+    <Covered_demands_tag>Demandas cubiertas</Covered_demands_tag>
+    <Not_covered_demands_tag>Demandas no cubiertas</Not_covered_demands_tag>
+    <Demand_value_tag>Valor de demanda</Demand_value_tag>
+    <Location_tag>Coordenadas</Location_tag>
+    <Demand_representation>cfgFiles\default\image\leyDemanda.png</Demand_representation>
+    <Covered_representation>cfgFiles\default\image\leyDemanda.png</Covered_representation>
+    <Not_covered_representation>cfgFiles\default\image\leyDemandanoCovered.png</Not_covered_representation>
+    <Density_0>cfgFiles\default\image\Demanda1.png</Density_0>
+    <Density_1>cfgFiles\default\image\Demanda2.png</Density_1>
+    <Density_2>cfgFiles\default\image\Demanda3.png</Density_2>
+    <Density_3>cfgFiles\default\image\Demanda4.png</Density_3>
+    <Density_covered_0>cfgFiles\default\image\Demanda1.png</Density_covered_0>
+    <Density_covered_1>cfgFiles\default\image\Demanda2.png</Density_covered_1>
+    <Density_covered_2>cfgFiles\default\image\Demanda3.png</Density_covered_2>
+    <Density_covered_3>cfgFiles\default\image\Demanda4.png</Density_covered_3>
+    <Density_not_covered_0>cfgFiles\default\image\DemandaNC1trans.png</Density_not_covered_0>
+    <Density_not_covered_1>cfgFiles\default\image\DemandaNC2trans.png</Density_not_covered_1>
+    <Density_not_covered_2>cfgFiles\default\image\DemandaNC3trans.png</Density_not_covered_2>
+    <Density_not_covered_3>cfgFiles\default\image\DemandaNC4trans.png</Density_not_covered_3>
+    <Characteristics amount="0" />
+  </Demands>
+  <Maps>
+    <WMS enable="true">http://10.9.12.185:8080/geoserver/idesoi/wms?service=WMS&amp;amp;version=1.1.0&amp;amp;request=GetCapabilities</WMS>
+    <Map_image has_image="true">cfgFiles\default\Mapa Habana Imagen\Mapa de la Habana1.tif</Map_image>
+    <Shape_files_directory>cfgFiles\default\Mapa Base</Shape_files_directory>
+    <Shape_file has_shp="true">cfgFiles\default\Mapa Base\3Municipios.shp</Shape_file>
+    <Geocode enabled="true">http://idesoi-openls1.citi.cu/OpenLSServer/OpenLSServer.aspx</Geocode>
+  </Maps>
+  <File_paths>
+    <Data_path>Datos</Data_path>
+    <Solution_path>Soluciones</Solution_path>
+  </File_paths>
+  <Connection uses_proxy="false">
+    <Address />
+    <Port />
+    <Username />
+    <Password />
+  </Connection>
+</Profile>
+

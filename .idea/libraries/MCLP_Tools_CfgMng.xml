@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="MCLP_Tools_CfgMng">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/MCLP_Tools_CfgMng.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Sin_titulo>
+    <Coordenadas>false</Coordenadas>
+    <posicionLabelLugarX>9</posicionLabelLugarX>
+    <posicionLabelLugarY>14</posicionLabelLugarY>
+    <posicionEditLugarX>9</posicionEditLugarX>
+    <posicionEditLugarY>37</posicionEditLugarY>
+    <sizeEditLugarW>334</sizeEditLugarW>
+    <sizeEditLugarH>71</sizeEditLugarH>
+    <sizeColumnaLugarIns>475</sizeColumnaLugarIns>
+    <sizeColumnaCobertura>160</sizeColumnaCobertura>
+    <sizeColumnaLugarDem>492</sizeColumnaLugarDem>
+    <sizeColumnaDemanda>133</sizeColumnaDemanda>
+    <Cobertura>Distacia que puede vigilar</Cobertura>
+    <Demanda>Nivel de interés</Demanda>
+    <Lugar>Descripción</Lugar>
+    <tabTextDem>Zonas de interés</tabTextDem>
+    <tabTextIns>Posibles ubicaciones de policías</tabTextIns>
+    <tabTextDemC>Zonas de interés vigiladas</tabTextDemC>
+    <tabTextInsA>Policías ubicados</tabTextInsA>
+    <tabTextDemNC>Zonas de interés sin vigilar</tabTextDemNC>
+    <tabTextInsI>Ubicaciones no tuilizadas</tabTextInsI>
+    <mapaWMS>true</mapaWMS>
+    <servicio>http://idesoi.min3.dtc/IDESOI/Services/Maps/MapaBaseCuba/MapServer/WMSServer?Request=GetCapabilities&amp;service=WMS&amp;version=1.1.0</servicio>
+    <defineProxy>false</defineProxy>
+    <host />
+    <post />
+    <user />
+    <pass />
+    <mapaImagen>true</mapaImagen>
+    <archivoImagen>Mapa Habana Imagen\Mapa de la Habana1.tif</archivoImagen>
+    <mapaShape>true</mapaShape>
+    <archivoShapefile>Mapa Base\Provincias.shp</archivoShapefile>
+    <saveDatos>true</saveDatos>
+    <rutaDatos>Datos</rutaDatos>
+    <saveSoluciones>true</saveSoluciones>
+    <rutaSoluciones>Soluciones</rutaSoluciones>
+    <instalaciones>src\image\Ubicacion de los policías1.png</instalaciones>
+    <imgInsActiva>src\image\Ubicacion de policía Activa.png</imgInsActiva>
+    <imgInsInactiva>src\image\Ubicacion de policía Inactiva.png</imgInsInactiva>
+    <imgIns>src\image\Ubicacion de los policías.png</imgIns>
+    <instalacionActiva>src\image\Ubicacion de policía Activa1.png</instalacionActiva>
+    <instalacionNoUb>src\image\Ubicacion de policía Inactiva1.png</instalacionNoUb>
+    <haveDensityDemNoCovert>true</haveDensityDemNoCovert>
+    <demandaSinCubrir>src\image\leypolidemnoCovert.png</demandaSinCubrir>
+    <imgDemInactiva>src\image\polDemNoCovert3.png</imgDemInactiva>
+    <imgDemInactiva2>src\image\polDemNoCovert.png</imgDemInactiva2>
+    <imgDemInactiva3>src\image\polDemNoCovert1.png</imgDemInactiva3>
+    <imgDemInactiva4>src\image\polDemNoCovert2.png</imgDemInactiva4>
+    <haveDensityDemCovert>true</haveDensityDemCovert>
+    <demandaCubierta>src\image\leypolidemCovert.png</demandaCubierta>
+    <imgDemActiva>src\image\polDemCovert.png</imgDemActiva>
+    <imgDemActiva2>src\image\polDemCovert1.png</imgDemActiva2>
+    <imgDemActiva3>src\image\polDemCovert2.png</imgDemActiva3>
+    <imgDemActiva4>src\image\polDemCovert3.png</imgDemActiva4>
+    <haveDensityDem>true</haveDensityDem>
+    <demandas>src\image\leypoliDem.png</demandas>
+    <imgDem>src\image\poliDem3.png</imgDem>
+    <imgDem2>src\image\poliDem2.png</imgDem2>
+    <imgDem3>src\image\poliDem1.png</imgDem3>
+    <imgDem4>src\image\poliDem.png</imgDem4>
+    <tcEvaluacion>false</tcEvaluacion>
+    <tcAlgoritmo>false</tcAlgoritmo>
+    <paneParaGenPW>725</paneParaGenPW>
+    <paneParaGenPH>73</paneParaGenPH>
+    <paneParaGenLX>11</paneParaGenLX>
+    <paneParaGenLY>21</paneParaGenLY>
+    <labelParaGenLX>10</labelParaGenLX>
+    <labelParaGenLY>7</labelParaGenLY>
+    <labelTotalEjeLX>5</labelTotalEjeLX>
+    <labelTotalEjeLY>38</labelTotalEjeLY>
+    <labelTotalIte>false</labelTotalIte>
+    <lbCIALX>356</lbCIALX>
+    <lbCIALY>38</lbCIALY>
+    <lbSolInic>false</lbSolInic>
+    <tfTotalEjePW>122</tfTotalEjePW>
+    <tfTotalEjePH>25</tfTotalEjePH>
+    <tfTotalEjeLX>215</tfTotalEjeLX>
+    <tfTotalEjeLY>34</tfTotalEjeLY>
+    <tfTotalIte>false</tfTotalIte>
+    <tfCIAPW>122</tfCIAPW>
+    <tfCIAPH>25</tfCIAPH>
+    <tfCIALX>580</tfCIALX>
+    <tfCIALY>38</tfCIALY>
+    <checkConstruccionSolucion>false</checkConstruccionSolucion>
+    <bEjecutarLX>750</bEjecutarLX>
+    <bEjecutarLY>33</bEjecutarLY>
+    <bLimpiarLX>886</bLimpiarLX>
+    <bLimpiarLY>33</bLimpiarLY>
+    <paneMapaPW>1007</paneMapaPW>
+    <paneMapaPH>490</paneMapaPH>
+    <paneMapaLX>12</paneMapaLX>
+    <paneMapaLY>105</paneMapaLY>
+    <idMapDatosPW>865</idMapDatosPW>
+    <idMapDatosPH>442</idMapDatosPH>
+    <idMapDatosLX>125</idMapDatosLX>
+    <idMapDatosLY>15</idMapDatosLY>
+    <lbInformacionDatosLX>117</lbInformacionDatosLX>
+    <lbInformacionDatosLY>461</lbInformacionDatosLY>
+    <cxDemanda>7</cxDemanda>
+    <cyDemanda>7</cyDemanda>
+    <cxInstalacion>15</cxInstalacion>
+    <cyInstalacion>25</cyInstalacion>
+    <labelTotalEje>Distribuciones</labelTotalEje>
+    <tabSol>Distribuciones de policías</tabSol>
+    <MCLP>true</MCLP>
+    <MCLP_AC>false</MCLP_AC>
+    <Costo_cierre>Costo de Cierre</Costo_cierre>
+    <Costo_apertura>Costo de Apertura</Costo_apertura>
+    <DMCLP cantidad="4">true</DMCLP>
+    <DMCLP_periodos>true</DMCLP_periodos>
+    <DMCLP_periodos0>Mañana</DMCLP_periodos0>
+    <DMCLP_periodos1>Tarde</DMCLP_periodos1>
+    <DMCLP_periodos2>Noche</DMCLP_periodos2>
+    <DMCLP_periodos3>Magrugada</DMCLP_periodos3>
+    <DMCLP_TF cantidad="3">true</DMCLP_TF>
+    <DMCLP_TF_Instalaciones>true</DMCLP_TF_Instalaciones>
+    <DMCLP_TF_Tipo_Inst>true</DMCLP_TF_Tipo_Inst>
+    <DMCLP_TF_Tipo_Inst_Ab>true</DMCLP_TF_Tipo_Inst_Ab>
+    <DMCLP_TF_Tipo_Inst_Cerr>true</DMCLP_TF_Tipo_Inst_Cerr>
+    <Tipos_Instalaciones0>Bicicleta</Tipos_Instalaciones0>
+    <Tipos_Instalaciones1>Motorizada</Tipos_Instalaciones1>
+    <Tipos_Instalaciones2>Patrulla</Tipos_Instalaciones2>
+    <ImgInstDatos0>src\image\bike sola.png</ImgInstDatos0>
+    <ImgInstDatos1>src\image\poli solo small.png</ImgInstDatos1>
+    <ImgInstDatos2>src\image\patrullas1.png</ImgInstDatos2>
+    <ImgInstAbierta0>src\image\bike green small.png</ImgInstAbierta0>
+    <ImgInstAbierta1>src\image\poli green small.png</ImgInstAbierta1>
+    <ImgInstAbierta2>src\image\patrullas2.png</ImgInstAbierta2>
+    <ImgInstCerrada0>src\image\bike small.png</ImgInstCerrada0>
+    <ImgInstCerrada1>src\image\poli small.png</ImgInstCerrada1>
+    <ImgInstCerrada2>src\image\patrullas3.png</ImgInstCerrada2>
+  
+  
+</Sin_titulo>
+

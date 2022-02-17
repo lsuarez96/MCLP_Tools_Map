@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact name="MCLP_Tools_Map:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/MCLP_Tools_Map_jar</output-path>
+    <root id="root">
+      <element id="archive" name="MCLP_Tools_Map.jar">
+        <element id="module-output" name="MCLP_Tools_Map" />
+      </element>
+      <element id="library" level="project" name="fxgraphics2d-1.6" />
+      <element id="library" level="project" name="svg-graphics-0.0.2-shaded" />
+      <element id="library" level="project" name="controlsfx-8.40.15" />
+      <element id="library" level="project" name="MCLP_Tools_CfgMng" />
+    </root>
+  </artifact>
+</component>

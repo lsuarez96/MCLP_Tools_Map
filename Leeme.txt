@@ -1,0 +1,2 @@
+Los shape file van en esta ruta
+MCLP_Tools_Map\cfgFiles\default\Mapa Base

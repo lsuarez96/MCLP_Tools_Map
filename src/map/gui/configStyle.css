@@ -1,0 +1,68 @@
+.main-btns {
+    -fx-background-color: transparent;
+    -fx-background-radius: 0px;
+}
+
+.icons {
+    -fx-fill: #1b4596;
+}
+
+.main-btns:hover {
+    -fx-background-color: transparent;
+    -fx-background-radius: 0px;
+    -fx-border-color: #287cff;
+    -fx-border-width: 0px 0px 3px 0px;
+    -fx-border-radius: 0px;
+}
+
+.main-btns-selected {
+    -fx-background-color: transparent;
+    -fx-background-radius: 0px;
+    -fx-border-color: #287cff;
+    -fx-border-width: 0px 0px 3px 0px;
+    -fx-border-radius: 0px;
+}
+
+.main-pane {
+    -fx-border-width: 0px 0px 1px 0px;
+    -fx-border-color: #40c3ff;
+}
+
+.main-btns-selected {
+    -fx-border-color: #287cff;
+    -fx-border-width: 0px 0px 2px 0px;
+    -fx-border-radius: 0px;
+}
+
+.config-content-pane {
+    -fx-border-width: 0px 1px 1px 1px;
+    -fx-border-color: #494949;
+    -fx-border-radius: 5px 5px 5px 5px;
+}
+
+.section-pane {
+    -fx-border-width: 1px;
+    -fx-border-color: #494949;
+    -fx-border-radius: 10px;
+}
+
+.image-selection-pane {
+    -fx-border-width: 1px;
+    -fx-border-color: rgba(85, 85, 85, 0.63);
+    -fx-border-radius: 5px;
+    -fx-pref-width: 25px;
+    -fx-pref-height: 25px;
+    -fx-max-height: 25px;
+    -fx-max-width: 25px;
+}
+
+.clear-field{
+    -fx-fill: black;
+    -fx-text-fill: black;
+}
+
+.clear-field:hover{
+    -fx-fill: red;
+    -fx-text-fill: red;
+}
+

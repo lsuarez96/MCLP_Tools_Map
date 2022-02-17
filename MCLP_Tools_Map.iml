@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="controlsfx-8.40.15" level="project" />
+    <orderEntry type="library" name="fxgraphics2d-1.6" level="project" />
+    <orderEntry type="library" name="MCLP_Tools_CfgMng" level="project" />
+    <orderEntry type="library" name="svg-graphics-0.0.2-shaded" level="project" />
+    <orderEntry type="library" name="ant-1.8.1" level="project" />
+    <orderEntry type="library" name="gt13 (2)" level="project" />
+  </component>
+</module>
